@@ -4,8 +4,6 @@ import { shortenAddress } from "../Utils/ShortenAddress";
 import BlockchainBox from "./BlockchainBox";
 import { Container } from "./ui";
 
-
-
 export const Header = () => {
   //rainbow
   

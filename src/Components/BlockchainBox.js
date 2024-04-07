@@ -1,14 +1,13 @@
-import React, { useEffect, useState, useContext } from 'react';
+import React, {  useState, useContext } from 'react';
 import { EthersContext } from '../Context/EthersContext';
 import { chainIdMapping } from '../Utils/networks';
-import {Modal} from 'react-modal';
 
 
 const BlockchainBox = () => {
     const { chainId, switchNetwork } = useContext(EthersContext)
     console.log(chainId);
     const customStyles = {
-        overlay: {
+        overlay: {  
             backgroundColor: 'rgba(0, 0, 0, 0.5)',
             zIndex: 9999,
         },
@@ -46,12 +45,12 @@ const BlockchainBox = () => {
     return (
         <div className="relative inline-block text-left">
             <div>
-                <button
+                <button 
                     type="button"
                     className="inline-flex justify-center items-center w-full px-4 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                     onClick={handleOpenModal}
                 >
-                    {chainIdMapping[chainId].name}
+                    user
                 </button>
             </div>
 

@@ -54,7 +54,7 @@ const Welcome = () => {
                 </div>
                 <div className={companyCommonStyles}> Reliabile </div>
                 <div className={`rounded-br-2xl ${companyCommonStyles}`}>
-                  easy
+                  XDC
                 </div>
               </div>
             </div>

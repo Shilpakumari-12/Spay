@@ -14,7 +14,7 @@ export default function Ethers({ children }) {
   const [currentAccount, setCurrentAccount] = useState(null);
   const [chainId, setChainId] = useState(window.ethereum.networkVersion);
   const [EmpWallet, setEmpWallet] = useState('0')
-  const [isLoading, setisLoading] = useState(false);
+  const [ setisLoading] = useState(false);
   const [Contract, setContract] = useState(null)
   const navigate = useNavigate()
 
@@ -300,7 +300,7 @@ export default function Ethers({ children }) {
   const getContractAddress = (chain)=>{
     console.log("getContractAddress", chain);
     try {
-      if (chain == 80001) return mumbaiContract
+      if (chain === 80001) return mumbaiContract
       else return XDCContract;
     } catch (e) {
       alert(e)
