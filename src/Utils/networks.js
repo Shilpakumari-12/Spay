@@ -20,6 +20,13 @@ export const chainIdMapping = {
         nativeCurrency: { name: 'MATIC', decimals: 18, symbol: 'MATIC' },
         hex: "0x13881"
     },
+    1:{
+        name: "Ethereum",
+        rpcUrls: ["https://mainnet.infura.io/v3/"],
+        blockExplorerUrls: ["https://etherscan.io"],
+        nativeCurrency: { name: 'ETH', decimals: 18, symbol: 'ETH' },
+        hex: "0x1"
+    },
     137:{
         name: "Polygon",
         rpcUrls: ["https://polygon-rpc.com/"],
@@ -33,5 +40,5 @@ export const chainIdMapping = {
         blockExplorerUrls: ["https://mumbai.polygonscan.com"],
         nativeCurrency: { name: 'MATIC', decimals: 18, symbol: 'MATIC' },
         hex:"0x13881"
-    }
+    },
 }

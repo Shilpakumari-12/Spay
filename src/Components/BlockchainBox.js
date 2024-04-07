@@ -89,7 +89,6 @@ const BlockchainBox = () => {
                             className='w-10 h-11 ml-3'></img>
                         <div className='text-xs text-white'>Mumbai</div>
                     </div>
-                        
                         </div>
                     </div>
                 </div>}

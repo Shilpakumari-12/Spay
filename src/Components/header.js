@@ -1,9 +1,7 @@
 import { useContext } from "react";
 import { EthersContext } from "../Context/EthersContext";
-import { Link } from "react-router-dom";
 import { shortenAddress } from "../Utils/ShortenAddress";
 import BlockchainBox from "./BlockchainBox";
-import { CloseIcon } from "../icons/close-icon";
 import { Container } from "./ui";
 
 
@@ -18,7 +16,7 @@ export const Header = () => {
         <Container className="flex justify-between items-center">
           <div className="flex items-center flex-shrink-0 text-white mr-6">
             <div className="block mt-4 lg:inline-block lg:mt-0">
-              <span className="font-bold text-4xl tracking-tight">Spayz</span>
+              <span className="font-bold text-4xl tracking-tight">Spay</span>
             </div>
           </div>
 
