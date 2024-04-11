@@ -7,7 +7,6 @@ import EmployeePage from './Pages/EmployeePage';
 import TransactionsPage from './Pages/TransactionsPage';
 import VerifyPage from './Pages/VerifyPage';
 import SalaryPage from './Pages/SalaryPage';
-import { Header } from './Components/header';
 
 function App() {
   return (

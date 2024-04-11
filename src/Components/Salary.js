@@ -13,7 +13,7 @@ function Salary() {
     const navigate = useNavigate()
     useEffect(() => {
         initiator()
-    }, [])
+    },)
     const initiator = async () => {
         if(!EmpWallet) navigate("/company")
         setLoaded(false)
